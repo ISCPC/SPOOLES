@@ -11,8 +11,8 @@
 #
 # for solaris
 #
-# CC = gcc
-  CC = /usr/lang-4.0/bin/cc
+ CC = gcc
+#  CC = /usr/lang-4.0/bin/cc
 #
 # for sgi
 #
@@ -28,7 +28,7 @@
 # 
 # OPTLEVEL = 
 # OPTLEVEL = -g -v
-  OPTLEVEL = -O
+  OPTLEVEL = -O2
 # OPTLEVEL = -xO5 -v
 # OPTLEVEL = -O3
 # OPTLEVEL = -O4
